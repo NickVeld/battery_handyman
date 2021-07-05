@@ -31,8 +31,12 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
         if [ -f tests/requirements.txt ]; then pip install -r tests/requirements.txt; fi
     - name: Analysing the code with pylint
+      env:
+        PYTHONPATH: .
       run: |
-        PYTHONPATH=. pylint `ls -R|grep .py$|xargs`
+        pylint `ls -R|grep .py$|xargs`
     - name: Test with pytest
+      env:
+        PYTHONPATH: .
       run: |
-        PYTHONPATH=. pytest
+        pytest --cov=./
