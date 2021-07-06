@@ -46,5 +46,6 @@ jobs:
       run: |
         if [ "${{ matrix.disable_coverage_count}}" = true ]; then
           pytest
+          exit 0
         fi
         pytest --cov=./ --cov-report=term --cov-report=xml
