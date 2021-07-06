@@ -12,7 +12,12 @@ jobs:
 
     strategy:
       matrix:
-        python: ["3.6", "3.7", "3.8", "3.9"]
+        python: ["3.6", "3.7", "3.8"]
+        disable_coverage_count: [true]
+        include:
+          # Must be the latest version
+          - python: "3.9"
+            disable_coverage_count: false
 
     steps:
     - uses: actions/checkout@v2
@@ -39,4 +44,7 @@ jobs:
       env:
         PYTHONPATH: .
       run: |
+        if [ "${{ matrix.disable_coverage_count}}" = true ]; then
+          pytest
+        fi
         pytest --cov=./ --cov-report=term --cov-report=xml
