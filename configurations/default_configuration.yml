@@ -1,0 +1,15 @@
+!BatteryHandyman
+battery_limit_config:
+  charged: 90
+  low: 40
+check_config:
+  # In seconds
+  check_interval: 1
+remote_request_config:
+  remote_address: http://127.0.0.1:80
+  request_method: POST
+  request_template: /power/{needs_charging}
+  request_data_mapping:
+    needs_charging:
+      True: 1
+      False: 0
