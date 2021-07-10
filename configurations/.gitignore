@@ -1,0 +1,5 @@
+# Configuration files
+*
+!.gitignore
+!default_configuration.yml
+!template_configuration_*.yml
