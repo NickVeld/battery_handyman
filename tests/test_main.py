@@ -12,7 +12,7 @@
 #    See the License for the specific language governing permissions and
 #    limitations under the License.
 """The tests for battery_handyman/main.py"""
-import os.path
+import os
 import multiprocessing
 import subprocess
 import time
@@ -89,10 +89,13 @@ def test_main_using_subprocess(cli_args):
     python_version = bh_process.stdout.readline()
     assert python_version.startswith("Python 3".encode("utf-8"))
 
+    bh_process_creationflags = 0
+    if os.name == "nt":
+        bh_process_creationflags += subprocess.CREATE_NEW_PROCESS_GROUP
     bh_process = subprocess.Popen(
         ["python", "-m", "battery_handyman"] + cli_args,
         stdout=subprocess.PIPE, stderr=subprocess.PIPE,
-        creationflags=subprocess.CREATE_NEW_PROCESS_GROUP
+        creationflags=bh_process_creationflags
     )
     time.sleep(2.5)
     return_code = bh_process.poll()
