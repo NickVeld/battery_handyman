@@ -17,6 +17,8 @@
 BatteryHandyman
 ===============
 
+A customizable battery saving application
+
 -------
 General
 -------
