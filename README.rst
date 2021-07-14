@@ -131,6 +131,11 @@ or have the module in ``PYTHONPATH``)::
     cd /path/to/battery_handyman/repo/root
     python -m battery_handyman -c my_configuration.yml
 
+Or the app can be called with the following command
+if you have Python's "scripts" directory in the path::
+
+    battery_handyman -c ./my_configuration.yml
+
 Using import
 ============
 
