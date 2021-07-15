@@ -13,6 +13,8 @@ ignore_errors = True
 omit =
     tests/*
     */__main__.py
+    bin/*
+    setup.py
 
 [xml]
 output = coverage.xml
