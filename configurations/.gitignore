@@ -2,4 +2,5 @@
 *
 !.gitignore
 !default_configuration.yml
+!default_alt_configuration.yml
 !template_configuration_*.yml
