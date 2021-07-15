@@ -69,8 +69,8 @@ class BatteryHandyman:
     """Central class"""
     def __init__(
             self,
-            battery_limit_config: ConfigSectionNamespace,
-            check_config: ConfigSectionNamespace,
+            battery_limit_config: Optional[ConfigSectionNamespace] = None,
+            check_config: Optional[ConfigSectionNamespace] = None,
             remote_request_config: Optional[ConfigSectionNamespace] = None,
     ):
         self._skip_send_request = True
@@ -103,7 +103,11 @@ class BatteryHandyman:
         except AttributeError:
             self.battery_limit_low = battery_handyman.constants.BATTERY_LIMIT_VALUE_DEFAULT_LOW
 
-        self.check_interval = check_config.check_interval
+        try:
+            self.check_interval = check_config.check_interval
+        except AttributeError:
+            self.check_interval = battery_handyman.constants.CHECK_INTERVAL_IN_SECONDS_DEFAULT
+
         self.remote_address = remote_address
         self.request_template = request_template
         self.request_method = remote_request_config.request_method
