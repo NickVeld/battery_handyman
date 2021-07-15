@@ -92,7 +92,7 @@ class BatteryHandyman:
             )
 
         while remote_address.endswith("/"):
-            remote_address = remote_address[-1]
+            remote_address = remote_address[:-1]
 
         try:
             self.battery_limit_charged = battery_limit_config.charged
