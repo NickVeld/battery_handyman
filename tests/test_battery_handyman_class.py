@@ -129,7 +129,7 @@ def test_send_request_with_mock(
 
 @pytest.mark.parametrize(
     "config_path", [
-        pytest.param(CONFIG_PATH_DEFAULT, id="default_config")
+        pytest.param(CONFIG_PATH_DEFAULT, id="default_config"),
     ]
 )
 def test_battery_handyman_load_and_dump(config_path):
@@ -163,8 +163,9 @@ def test_battery_handyman_load_and_dump(config_path):
 @pytest.mark.slow
 @pytest.mark.parametrize(
     "config_path, test_check_interval", [
-        pytest.param(CONFIG_PATH_DEFAULT, 1, id="default_config")
-    ]
+        pytest.param(CONFIG_PATH_DEFAULT, 1, id="default_config"),
+        pytest.param(CONFIG_PATH_DEFAULT[:-4] + "_alt.yml", 1, id="alt_default_config"),
+    ],
 )
 def test_battery_handyman_runability(config_path, test_check_interval):
     """Tests the instance of the BatterHandyman starts and finishes properly"""
