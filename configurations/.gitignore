@@ -1,6 +1,5 @@
 # Configuration files
 *
 !.gitignore
-!default_configuration.yml
-!default_alt_configuration.yml
+!default_configuration*.yml
 !template_configuration_*.yml
