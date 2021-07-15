@@ -44,7 +44,7 @@ jobs:
       env:
         PYTHONPATH: .
       run: |
-        if [ "${{ matrix.disable_coverage_count}}" = true ]; then
+        if [ "${{ matrix.disable_coverage_count }}" = true ]; then
           pytest
           exit 0
         fi
@@ -53,4 +53,4 @@ jobs:
       uses: codecov/codecov-action@v1
       with:
         fail_ci_if_error: false
-      if: ${{ disable_coverage_count }}
+      if: ${{ matrix.disable_coverage_count }}
