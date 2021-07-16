@@ -1,6 +1,6 @@
 # Based on https://github.com/lRomul/argus/blob/37c1cade3b82a9bffc289894458d80cf1720532d/setup.py
-import os
 import io
+import os
 import re
 from setuptools import setup, find_packages
 
