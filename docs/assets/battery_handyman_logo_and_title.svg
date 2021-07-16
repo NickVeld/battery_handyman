@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Created using Krita: https://krita.org -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:krita="http://krita.org/namespaces/svg/krita"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    width="310.0pt"
+    height="155.0pt"
+    viewBox="0 0 310.0 155.0">
+<defs>
+  <radialGradient id="gradient0" gradientUnits="objectBoundingBox" cx="0.5" cy="0.5" fx="0.5" fy="0.5" r="0.6" spreadMethod="pad">
+   <stop stop-color="#ffea00" offset="0" stop-opacity="1"/>
+   <stop stop-color="#297f00" offset="1" stop-opacity="1"/>
+  </radialGradient>
+</defs>
+<rect id="shape0" transform="matrix(1.0 0 0 1.0 25.5 49.0)" fill="url(#gradient0)" fill-rule="evenodd" stroke="#297f00" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="bevel" width="58.8" height="82.0"/>
+<path id="shape01" transform="matrix(1.0 0 0 1.0 44.4 60.7)" fill="#fff200" fill-rule="evenodd" stroke="#000000" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="bevel" d="M7.68 60.6L17.76 34.56L13.32 34.44L19.0 17.88L13.44 18L20.04 0L0 0.72L1.08 18.36L4.56 18.48L2.88 34.68L7.08 34.68Z"/>
+<path id="shape02" transform="matrix(1.0 0 0 1.0 19.8 21.2)" fill="#ffea00" fill-rule="evenodd" stroke="#000000" stroke-width="0.24" stroke-linecap="square" stroke-linejoin="bevel" d="M0.0117786 33.1587C3.27973 33.4752 8.83675 33.0 29.7103 29.0858C44.7561 29.8859 70.1557 36.6954 76.0 32.3126C74.1119 28.4277 66.4702 27.1882 63.474 23.3126C34.3535 -27.1027 -0.73692 17.6357 0.0117786 33.1587Z"/>
+<path id="shape1" transform="matrix(1.0 0 0.5 1.0 54.0 26.0)" sodipodi:type="arc" sodipodi:rx="3.8" sodipodi:ry="8.674" sodipodi:cx="3.8" sodipodi:cy="8.6742" sodipodi:start="6.283" sodipodi:end="6.236236" sodipodi:arc-type="chord" d="M7.62329 8.26712C7.52526 3.52149 5.76701 -0.161776 3.6795 0.00547758C1.59198 0.172731 -0.0479583 4.12826 0.0010713 8.87782C0.0501009 13.6274 1.76986 17.4035 3.85852 17.3477C6.0 17.292 7.6275 13.4251 7.6275 8.67421Z" fill="none" stroke="#000000" stroke-width="0.24" stroke-linecap="square" stroke-linejoin="bevel"/>
+<path id="shape011" transform="matrix(1.0 0 0.75 -1.0 32.23 43.0)" sodipodi:type="arc" sodipodi:rx="4.08" sodipodi:ry="8.51658803363027" sodipodi:cx="4.08002198109061" sodipodi:cy="8.51668688429645" sodipodi:start="6.28318530717959" sodipodi:end="6.23623595030094" sodipodi:arc-type="chord" d="M8.15553 8.11699C8.05065 3.45753 6.16964 -0.158838 4.0 0.00537811C1.70313 0.169594 -0.0513066 4.05329 0.00114609 8.71659C0.0535988 13.3799 1.89342 17.0874 4.12791 17.0327C6.3624 17.0 8.16002 13.1813 8.16002 8.51669Z" fill="none" stroke="#000000" stroke-width="0.24" stroke-linecap="square" stroke-linejoin="bevel"/>
+<path id="shape011" transform="matrix(1.0 0 0 1.0 67.0 25.0)" fill="#ffea00" fill-rule="evenodd" stroke="#000000" stroke-width="0.24" stroke-linecap="square" stroke-linejoin="bevel" d="M0 1.41559C0.0524033 0.330062 1.21388 -0.581552 3.06 0.455591C10.6622 5.5771 16.8625 14.0 16.56 17.1356C15.76 18.4591 15.14 18.3324 13.8 17.5556C7.67873 13.0 3.78158 7.81941 0 1.41559Z"/>
+<text id="shape01" krita:useRichText="true" transform="matrix(1.0 0 0 1.0 85.643 68.2)" fill="#ffea00" stroke="#000000" stroke-opacity="0" stroke-width="0" stroke-linecap="square" stroke-linejoin="bevel" font-family="Consolas" font-size="36" font-size-adjust="0.5" font-stretch="normal" font-weight="600" letter-spacing="0" text-anchor="middle" word-spacing="0"><tspan x="108">Battery</tspan><tspan x="108" dy="56">Handyman</tspan></text>
+</svg>
