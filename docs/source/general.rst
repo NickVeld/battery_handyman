@@ -152,3 +152,10 @@ Then::
 
 In case you want to use the class directly,
 in the first place see through the details of `main` carefully.
+
+Demonstration
+=============
+
+The demonstration GIF longs 30 seconds.
+
+.. image:: https://i.imgur.com/WVZwPxn.gif
