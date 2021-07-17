@@ -32,6 +32,21 @@ Comparison with the similar application
 
     \*** Only one URL for the all limits
 
+------------
+Installation
+------------
+
+The most simplest way is an installation using ``pip`` from PyPI::
+
+    pip install battery_handyman
+
+... or from the git repository::
+
+    pip install -U git+https://github.com/NickVeld/battery_handyman.git
+
+Moreover you can just download/clone the repository content
+from `GitHub <https://github.com/NickVeld/battery_handyman>`_
+
 -----
 Usage
 -----
@@ -112,7 +127,8 @@ or have the module in ``PYTHONPATH``)::
     python -m battery_handyman -c my_configuration.yml
 
 Or the app can be called with the following command
-if you have Python's "scripts" directory in the path::
+if you have Python's "scripts" directory in the path
+(and the project is installed using ``pip``)::
 
     battery_handyman -c ./my_configuration.yml
 
