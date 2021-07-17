@@ -13,9 +13,54 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 
+.. ..
+    https://github.com/github/markup/issues/163#issuecomment-846676443
+
+.. raw:: html
+
+    <img src="https://raw.githubusercontent.com/NickVeld/battery_handyman/main/docs/assets/battery_handyman_logo.svg"
+    target="https://github.com/NickVeld/battery_handyman"
+    alt="Logo of Battery Handyman"
+    align="right"
+    >
+
 ===============
 BatteryHandyman
 ===============
+
+|pypi| |python| |docs| |license| |test| |codeql| |codefactor| |codecov|
+
+.. |pypi| image:: https://img.shields.io/pypi/v/battery_handyman
+    :target: https://pypi.org/project/battery_handyman/
+    :alt: PyPI project
+
+.. |python| image:: https://img.shields.io/pypi/pyversions/battery_handyman
+    :target: https://pypi.org/project/battery_handyman/
+    :alt: Supported Python versions
+
+.. |docs| image:: https://readthedocs.org/projects/battery-handyman/badge/?version=latest
+    :target: https://battery-handyman.readthedocs.io/en/latest/?badge=latest
+    :alt: Documentation Status
+
+.. |license| image:: https://img.shields.io/github/license/NickVeld/battery_handyman
+    :target: https://choosealicense.com/licenses/apache-2.0/
+    :alt: License
+
+.. |test| image:: https://github.com/NickVeld/battery_handyman/actions/workflows/python-app.yml/badge.svg
+    :target: https://github.com/NickVeld/battery_handyman/actions/workflows/python-app.yml
+    :alt: Testing pipeline status
+
+.. |codeql| image:: https://github.com/NickVeld/battery_handyman/actions/workflows/codeql-analysis.yml/badge.svg
+    :target: https://github.com/NickVeld/battery_handyman/actions/workflows/codeql-analysis.yml
+    :alt: CodeQL analysis status
+
+.. |codefactor| image:: https://www.codefactor.io/repository/github/NickVeld/battery_handyman/badge
+    :target: https://www.codefactor.io/repository/github/NickVeld/battery_handyman
+    :alt: Grade from CodeFactor
+
+.. |codecov| image:: https://codecov.io/gh/NickVeld/battery_handyman/branch/main/graph/badge.svg
+    :target: https://codecov.io/gh/NickVeld/battery_handyman
+    :alt: Code coverage
 
 A customizable battery saving application
 
