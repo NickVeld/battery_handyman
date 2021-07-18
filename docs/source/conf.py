@@ -62,6 +62,7 @@ templates_path = [
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
 exclude_patterns = [
+    "*/_*"
 ]
 
 # -- Options for HTML output -------------------------------------------------
@@ -74,7 +75,7 @@ html_logo = "../assets/battery_handyman_logo_and_title.svg"
 html_favicon = "../assets/battery_handyman_logo.svg"
 
 html_theme_options = {
-    "github_url": "https://github.com/NickVeld/battery_handyman",
+    # "github_url": "https://github.com/NickVeld/battery_handyman",
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

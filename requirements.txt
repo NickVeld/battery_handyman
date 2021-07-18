@@ -1,4 +1,6 @@
-# Tested using Python 3.7.3
+# https://psutil.readthedocs.io/en/latest/#psutil.sensors_battery
+# For Linux, Windows, FreeBSD >=5.1.0; macOS: >=5.4.2
+psutil>=5.4.2
 
 # Python3 support (with all the needed members) >=3.08
 PyYAML
@@ -6,7 +8,3 @@ PyYAML
 # requests.request >=0.3.0
 # requests.exception.ConnectionError >=0.8.0
 requests>=0.8.0
-
-# https://psutil.readthedocs.io/en/latest/#psutil.sensors_battery
-# For Linux, Windows, FreeBSD >=5.1.0; macOS: >=5.4.2
-psutil>=5.4.2

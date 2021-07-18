@@ -7,11 +7,14 @@
 Welcome to BatteryHandyman's documentation!
 ===========================================
 
+In order to return to this main page click on the logo on top left.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    api_reference/modules
+   whatsnew/index
 
 .. include:: ./general.rst
 
