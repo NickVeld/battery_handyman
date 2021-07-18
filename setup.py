@@ -11,6 +11,15 @@ def read(*names, **kwargs):
         return fp.read()
 
 
+def get_dependencies():
+    requirements_lines = read("requirements.txt").split("\n")
+    dependencies = list(filter(
+        lambda x: (len(x.lstrip()) > 0) and not(x.lstrip().startswith("#")),
+        requirements_lines
+    ))
+    return dependencies
+
+
 def find_version(*file_paths):
     version_file = read(*file_paths)
     version_match = re.search(r"^__version__ = ['\"]([^'\"]*)['\"]",
@@ -54,5 +63,5 @@ setup(
         "Topic :: System :: Hardware",
         "Topic :: Utilities",
     ],
-    install_requires=read("requirements.txt").split(),
+    install_requires=get_dependencies(),
 )
