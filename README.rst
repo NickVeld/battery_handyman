@@ -64,4 +64,4 @@ BatteryHandyman
 
 A customizable battery saving application
 
-.. include:: docs/source/general.rst
+See `documentation <https://battery-handyman.readthedocs.io/en/latest/>`_ for the details.
