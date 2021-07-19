@@ -64,4 +64,23 @@ BatteryHandyman
 
 A customizable battery saving application
 
-See `documentation <https://battery-handyman.readthedocs.io/en/latest/>`_ for the details.
+----------
+Quickstart
+----------
+
+See `documentation <https://battery-handyman.readthedocs.io/en/latest/>`_
+for more installation and usage ways, the details.
+
+Installation
+============
+
+The most simplest way is an installation using ``pip`` from PyPI::
+
+    pip install battery_handyman
+
+Usage
+=====
+
+Create a configuration file (for example, ``my_configuration.yml``) and call::
+
+    battery_handyman -c ./my_configuration.yml
