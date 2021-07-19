@@ -13,16 +13,11 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 
-.. ..
-    https://github.com/github/markup/issues/163#issuecomment-846676443
+.. image:: https://raw.githubusercontent.com/NickVeld/battery_handyman/main/docs/assets/battery_handyman_logo.svg
+    :target: https://github.com/NickVeld/battery_handyman
+    :alt: Logo of Battery Handyman
+    :align: right
 
-.. raw:: html
-
-    <img src="https://raw.githubusercontent.com/NickVeld/battery_handyman/main/docs/assets/battery_handyman_logo.svg"
-    target="https://github.com/NickVeld/battery_handyman"
-    alt="Logo of Battery Handyman"
-    align="right"
-    >
 
 ===============
 BatteryHandyman
