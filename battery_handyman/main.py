@@ -14,22 +14,29 @@
 """Top-level commands"""
 import os.path
 import time
+from typing import List
 
 import battery_handyman.cli
 from battery_handyman.battery_handyman_class import BatteryHandyman
 
 
-def main(args, path_to_dir_with_main_module: str = "battery_handyman", testing: bool = False):
+def main(
+        args: List[str],
+        path_to_dir_with_main_module: str = "battery_handyman",
+        testing: bool = False
+) -> None:
     """The entrypoint of the application
 
     With testing == False this function can not be covered
     """
     cli_parser = battery_handyman.cli.setup_parser()
     parsed_args = cli_parser.parse_args(args)
+
     config_dir = os.path.join(
         path_to_dir_with_main_module, "..", "configurations"
     )
     real_config_path = os.path.join(config_dir, parsed_args.config_path)
+
     battery_handyman_instance = BatteryHandyman.from_configuration_file(real_config_path)
     try:
         battery_handyman_instance.start(blocking=not(testing))
