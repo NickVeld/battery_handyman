@@ -79,3 +79,4 @@ Usage
 Create a configuration file (for example, ``my_configuration.yml``) and call::
 
     battery_handyman -c ./my_configuration.yml
+
